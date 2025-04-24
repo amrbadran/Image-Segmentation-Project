@@ -1,0 +1,41 @@
+*{
+    font-family:'Courier New', Courier, monospace
+}
+QMainWindow{
+	background-color:#222;
+
+}
+QFrame{
+	background-color:#222;
+}
+#FileNametxt{
+
+    padding:5px;
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+	background-color:#222;
+    color:#fff;
+   
+}
+#LoadFileBtn{
+
+
+        padding: 10px 20px;
+        background: linear-gradient(to bottom, #333, #555);
+        color: #fff; 
+        border: none;
+        border-radius: 5px;
+        cursor: hand;
+        font-size: 16px;
+
+    
+  
+}
+#LoadFileBtn:hover {
+    background: linear-gradient(to bottom, #555, #777);
+    
+    cursor: pointer;
+}
